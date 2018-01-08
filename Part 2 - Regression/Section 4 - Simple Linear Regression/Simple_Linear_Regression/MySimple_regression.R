@@ -24,5 +24,7 @@ y_pred = predict(regressor,newdata = test_set)
 #visualize the training set results
 #install.packages('ggplot2')
 library('ggplot2')
+ggplot()+
+  geom_point()
 
 
