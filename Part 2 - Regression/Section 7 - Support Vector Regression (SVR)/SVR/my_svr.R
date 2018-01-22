@@ -16,8 +16,11 @@ dataset = dataset[2:3]
 # training_set = scale(training_set)
 # test_set = scale(test_set)
 
-# Fitting the Regression Model to the dataset
-#######CREATE YOUR REGRESSOR HERE##########
+# Fitting the SVR to the dataset
+#install.packages('e1071')
+regressor = svm(formula = Salary ~ .,
+                data = dataset,
+                type = 'eps-regression')
 
 # Predicting a new result
 y_pred = predict(regressor, data.frame(Level = 6.5))

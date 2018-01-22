@@ -17,7 +17,7 @@ dataset = dataset[2:3]
 # test_set = scale(test_set)
 
 # Fitting the Regression Model to the dataset
-#######CREATE YOUR REGRESSOR HERE##########
+# Create your regressor here
 
 # Predicting a new result
 y_pred = predict(regressor, data.frame(Level = 6.5))

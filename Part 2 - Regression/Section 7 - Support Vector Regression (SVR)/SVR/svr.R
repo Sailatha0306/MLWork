@@ -1,4 +1,4 @@
-# Regression Template
+# SVR
 
 # Importing the dataset
 dataset = read.csv('Position_Salaries.csv')
@@ -16,13 +16,18 @@ dataset = dataset[2:3]
 # training_set = scale(training_set)
 # test_set = scale(test_set)
 
-# Fitting the Regression Model to the dataset
-#######CREATE YOUR REGRESSOR HERE##########
+# Fitting SVR to the dataset
+# install.packages('e1071')
+library(e1071)
+regressor = svm(formula = Salary ~ .,
+                data = dataset,
+                type = 'eps-regression',
+                kernel = 'radial')
 
 # Predicting a new result
 y_pred = predict(regressor, data.frame(Level = 6.5))
 
-# Visualising the Regression Model results
+# Visualising the SVR results
 # install.packages('ggplot2')
 library(ggplot2)
 ggplot() +
@@ -30,11 +35,11 @@ ggplot() +
              colour = 'red') +
   geom_line(aes(x = dataset$Level, y = predict(regressor, newdata = dataset)),
             colour = 'blue') +
-  ggtitle('Truth or Bluff (Regression Model)') +
+  ggtitle('Truth or Bluff (SVR)') +
   xlab('Level') +
   ylab('Salary')
 
-# Visualising the Regression Model results (for higher resolution and smoother curve)
+# Visualising the SVR results (for higher resolution and smoother curve)
 # install.packages('ggplot2')
 library(ggplot2)
 x_grid = seq(min(dataset$Level), max(dataset$Level), 0.1)
@@ -43,6 +48,6 @@ ggplot() +
              colour = 'red') +
   geom_line(aes(x = x_grid, y = predict(regressor, newdata = data.frame(Level = x_grid))),
             colour = 'blue') +
-  ggtitle('Truth or Bluff (Regression Model)') +
+  ggtitle('Truth or Bluff (SVR)') +
   xlab('Level') +
   ylab('Salary')
