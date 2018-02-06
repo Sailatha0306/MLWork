@@ -1,0 +1,14 @@
+1. How to encode categorical data, for samples like {'low','med','high','vhigh'}
+>>
+# Importing the dataset
+dataset = pd.read_csv('carsdata.csv')
+# Assign names to Columns
+dataset.columns = ['buying','maint','doors','persons','lug_boot','safety','classes']
+# Encode Data
+dataset.buying.replace(('vhigh','high','med','low'),(1,2,3,4), inplace=True)
+dataset.maint.replace(('vhigh','high','med','low'),(1,2,3,4), inplace=True)
+dataset.doors.replace(('2','3','4','5more'),(1,2,3,4), inplace=True)
+dataset.persons.replace(('2','4','more'),(1,2,3), inplace=True)
+dataset.lug_boot.replace(('small','med','big'),(1,2,3), inplace=True)
+dataset.safety.replace(('low','med','high'),(1,2,3), inplace=True)
+dataset.classes.replace(('unacc','acc','good','vgood'),(1,2,3,4), inplace=True)
