@@ -83,17 +83,18 @@ X_test = sc_X.transform(X_test)
 
 #PCA step
 from sklearn.decomposition import PCA
-pca = PCA(n_components = 6)
+pca = PCA(n_components = 9)
 X_train = pca.fit_transform(X_train)
 X_test = pca.transform(X_test)
 explained_variance = pca.explained_variance_ratio_
 
 # Fitting the Regression Model to the dataset
 from sklearn.ensemble import RandomForestRegressor
-regressor = RandomForestRegressor(n_estimators = 10, random_state = 0)
+regressor = RandomForestRegressor(n_estimators = 100, random_state = 0)
 regressor.fit(X_train,y_train)
 
 y_pred = regressor.predict(X_test)
+y_pred_train = regressor.predict(X_train)
 
 #apply k-fold cross validation
 from sklearn.cross_validation import cross_val_score
