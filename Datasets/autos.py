@@ -90,7 +90,7 @@ explained_variance = pca.explained_variance_ratio_
 
 # Fitting the Regression Model to the dataset
 from sklearn.ensemble import RandomForestRegressor
-regressor = RandomForestRegressor(n_estimators = 100, random_state = 0)
+regressor = RandomForestRegressor(n_estimators = 30, random_state = 0)
 regressor.fit(X_train,y_train)
 
 y_pred = regressor.predict(X_test)
