@@ -7,12 +7,16 @@ import glob,string
 import re
 import pandas as pd
 import matplotlib.pyplot as plt
+import nltk
 from nltk.corpus import stopwords
 
 
 filenames = sorted(glob.glob("*.xml"))
 df = pd.DataFrame()
 raw_data = []
+
+from nltk.stem.snowball import SnowballStemmer
+stemmer = SnowballStemmer("english")
 
 for filename in filenames:
     with open(filename, "r") as book_file:
@@ -27,9 +31,10 @@ def text_process(text):
     nopunc = ''.join(nopunc)
     
     filtered_words = [word for word in nopunc.split() if word.lower() not in stopwords.words('english')]
-    return ' '.join(filtered_words)
+    #return ' '.join(filtered_words)
     #return [word for word in nopunc.split() if word.lower() not in stopwords.words('english')]
-    #return [stemmer.stem(t) for t in filtered_words]
+    stem_words = [stemmer.stem(t) for t in filtered_words]
+    return ' '.join(stem_words)
 
 for i in range(0,len(X)):
     X[i] = text_process(X[i])
@@ -40,25 +45,31 @@ tfidvectorizer = TfidfVectorizer()
 tfidf_matrix = tfidvectorizer.fit_transform(X)
 
 print(tfidf_matrix.shape)
+d_tfidf_matrix = tfidf_matrix.toarray()
+print(d_tfidf_matrix.shape)
+
 
 terms = tfidvectorizer.get_feature_names()
 
 from sklearn.metrics.pairwise import cosine_similarity
-dist = 1 - cosine_similarity(tfidf_matrix)
+dist = 1 - cosine_similarity(d_tfidf_matrix)
 
 #KMeans 
 
 from sklearn.cluster import KMeans
+
 wcss = []
-for i in range(1, 150):
+for i in range(1, 104):
     kmeans = KMeans(n_clusters = i, init = 'k-means++')
-    kmeans.fit(tfidf_matrix)
+    kmeans.fit(d_tfidf_matrix)
     wcss.append(kmeans.inertia_)
-plt.plot(range(1,150), wcss,'.')
+plt.plot(range(1,104), wcss,'.')
 plt.title('The Elbow Method')
 plt.xlabel('Number of clusters')
 plt.ylabel('WCSS')
 plt.show()
+
+
 
 
 #kmeans = KMeans(n_clusters = 20, init = 'k-means++', random_state = 42)
