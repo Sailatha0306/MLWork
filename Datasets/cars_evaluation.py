@@ -51,6 +51,13 @@ y_pred = classifier.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
+
+#apply k-fold cross validation
+from sklearn.cross_validation import cross_val_score
+accuracies = cross_val_score(estimator=classifier,X = X_train,y = y_train,cv = 10)
+accuracies.mean()
+accuracies.std()
+
 from sklearn.metrics import accuracy_score
 score = accuracy_score(y_test, y_pred)
 #score_train = accuracy_score(y_train,y_pred_train)
