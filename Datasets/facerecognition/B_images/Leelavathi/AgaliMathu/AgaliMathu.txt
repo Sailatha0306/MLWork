@@ -1,0 +1,13 @@
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	028.jpg	Leelavathi_1.jpg	34	62	19	28	Agalimuthu	2014	Leelavathi	FEMALE	NEUTRAL	NONE	BAD	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	216.jpg	Leelavathi_12.jpg	88	65	85	90	Agalimuthu	2014	Leelavathi	FEMALE	SADNESS	HAND	MEDIUM	MIDDLE	RIGHT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	218.jpg	Leelavathi_13.jpg	96	64	85	84	Agalimuthu	2014	Leelavathi	FEMALE	SADNESS	HAND	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	277.jpg	Leelavathi_14.jpg	83	82	17	29	Agalimuthu	2014	Leelavathi	FEMALE	NEUTRAL	NONE	BAD	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	416.jpg	Leelavathi_15.jpg	27	69	16	20	Agalimuthu	2014	Leelavathi	FEMALE	NEUTRAL	HAND	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	029.jpg	Leelavathi_2.jpg	58	65	16	23	Agalimuthu	2014	Leelavathi	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	045.jpg	Leelavathi_3.jpg	60	67	23	25	Agalimuthu	2014	Leelavathi	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	090.jpg	Leelavathi_4.jpg	57	70	23	25	Agalimuthu	2014	Leelavathi	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	142.jpg	Leelavathi_5.jpg	84	59	92	87	Agalimuthu	2014	Leelavathi	FEMALE	SADNESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	143.jpg	Leelavathi_6.jpg	87	55	91	93	Agalimuthu	2014	Leelavathi	FEMALE	SADNESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	202.jpg	Leelavathi_8.jpg	95	59	88	85	Agalimuthu	2014	Leelavathi	FEMALE	SADNESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	204.jpg	Leelavathi_9.jpg	92	57	85	82	Agalimuthu	2014	Leelavathi	FEMALE	SADNESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	416.jpg	Leelavathi_15.jpg	27	69	16	20	Agalimuthu	2014	Leelavathi	FEMALE	SADNESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL

@@ -1,0 +1,22 @@
+Annamayya	03943.jpg	Brahmanandam_11.jpg	114	49	39	59	Annammayya	22-05-1997	Brahmanandam	MALE	SURPRISE	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+Annamayya	04274.jpg	Brahmanandam_12.jpg	186	54	42	60	Annammayya	22-05-1997	Brahmanandam	MALE	DISGUST	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+Annamayya	03943.jpg	Brahmanandam_11.jpg	114	49	39	59	Annammayya	22-05-1997	Brahmanandam	MALE	SURPRISE	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	03943.jpg	Brahmanandam_11.jpg	114	49	39	59	Annamayya	22-05-1997	Brahmanandam	MALE	SURPRISE	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	04274.jpg	Brahmanandam_12.jpg	186	54	42	60	Annamayya	22-05-1997	Brahmanandam	MALE	DISGUST	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	04275.jpg	Brahmanandam_13.jpg	180	49	41	63	Annamayya	22-05-1997	Brahmanandam	MALE	NEUTRAL	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	04276.jpg	Brahmanandam_14.jpg	183	64	46	59	Annamayya	22-05-1997	Brahmanandam	MALE	DISGUST	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	04284.jpg	Brahmanandam_15.jpg	123	109	18	27	Annamayya	22-05-1997	Brahmanandam	MALE	NEUTRAL	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	04428.jpg	Brahmanandam_16.jpg	164	43	26	42	Annamayya	22-05-1997	Brahmanandam	MALE	NEUTRAL	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+Annamayya	04438.jpg	Brahmanandam_17.jpg	185	46	31	41	Annamayya	22-05-1997	Brahmanandam	MALE	SURPRISE	NONE	BAD	MIDDLE	LEFT	PARTIAL
+Annamayya	04443.jpg	Brahmanandam_18.jpg	180	50	30	45	Annamayya	22-05-1997	Brahmanandam	MALE	FEAR	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+Annamayya	10484.jpg	Brahmanandam_19.jpg	218	36	38	49	Annamayya	22-05-1997	Brahmanandam	MALE	SADNESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+Annamayya	03415.jpg	Brahmanandam_2.jpg	216	37	27	33	Annamayya	22-05-1997	Brahmanandam	MALE	SURPRISE	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	10487.jpg	Brahmanandam_20.jpg	209	39	32	47	Annamayya	22-05-1997	Brahmanandam	MALE	SADNESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+Annamayya	11161.jpg	Brahmanandam_21.jpg	177	43	29	33	Annamayya	22-05-1997	Brahmanandam	MALE	SADNESS	HAND	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	12088.jpg	Brahmanandam_22.jpg	110	58	28	35	Annamayya	22-05-1997	Brahmanandam	MALE	ANGER	NONE	BAD	MIDDLE	LEFT	PARTIAL
+Annamayya	12116.jpg	Brahmanandam_23.jpg	113	59	24	40	Annamayya	22-05-1997	Brahmanandam	MALE	FEAR	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+Annamayya	03429.jpg	Brahmanandam_3.jpg	212	39	29	37	Annamayya	22-05-1997	Brahmanandam	MALE	NEUTRAL	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+Annamayya	03438.jpg	Brahmanandam_4.jpg	200	42	29	34	Annamayya	22-05-1997	Brahmanandam	MALE	ANGER	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+Annamayya	03925.jpg	Brahmanandam_7.jpg	8	67	27	28	Annamayya	22-05-1997	Brahmanandam	MALE	HAPPINESS	NONE	BAD	MIDDLE	UP	PARTIAL
+Annamayya	03936.jpg	Brahmanandam_8.jpg	112	48	38	54	Annamayya	22-05-1997	Brahmanandam	MALE	NEUTRAL	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+

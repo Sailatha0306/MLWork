@@ -1,0 +1,26 @@
+
+clip28_AakhriAdalat_VinodKhanna	092.jpg	VinodKhanna_1.jpg	207	132	211	276	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	HAIR	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	202.jpg	VinodKhanna_10.jpg	261	73	132	182	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	HAND	MEDIUM	YOUNG	LEFT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	237.jpg	VinodKhanna_13.jpg	264	141	53	66	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	OTHERS	MEDIUM	YOUNG	RIGHT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	325.jpg	VinodKhanna_16.jpg	109	74	262	335	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	HAIR	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	350.jpg	VinodKhanna_17.jpg	169	119	76	91	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	HAIR	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	351.jpg	VinodKhanna_18.jpg	174	112	83	95	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	HAIR	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	358.jpg	VinodKhanna_19.jpg	161	108	82	73	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	HAIR	MEDIUM	YOUNG	UP	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	094.jpg	VinodKhanna_2.jpg	127	128	255	279	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	OTHERS	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	363.jpg	VinodKhanna_20.jpg	194	94	84	83	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	UP	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	366.jpg	VinodKhanna_21.jpg	218	77	90	94	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	UP	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	452.jpg	VinodKhanna_22.jpg	196	122	103	133	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	LEFT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	488.jpg	VinodKhanna_25.jpg	216	131	80	99	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	RIGHT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	495.jpg	VinodKhanna_26.jpg	237	75	83	98	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	RIGHT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	508.jpg	VinodKhanna_28.jpg	116	78	118	147	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	512.jpg	VinodKhanna_29.jpg	241	74	143	169	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	537.jpg	VinodKhanna_31.jpg	304	140	62	73	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	LEFT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	583.jpg	VinodKhanna_32.jpg	289	131	94	123	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	592.jpg	VinodKhanna_34.jpg	325	117	121	153	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	597.jpg	VinodKhanna_35.jpg	240	123	108	139	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	650.jpg	VinodKhanna_36.jpg	270	107	155	193	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	LEFT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	103.jpg	VinodKhanna_4.jpg	102	140	275	274	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	FRONTAL	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	111.jpg	VinodKhanna_5.jpg	280	73	198	243	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	RIGHT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	114.jpg	VinodKhanna_7.jpg	251	93	161	197	AakhriAdalat	1988	VinodKhanna	MALE	HAPPINESS	NONE	MEDIUM	YOUNG	RIGHT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	121.jpg	VinodKhanna_8.jpg	101	107	139	190	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	LEFT	PARTIAL
+clip28_AakhriAdalat_VinodKhanna	155.jpg	VinodKhanna_9.jpg	233	164	82	109	AakhriAdalat	1988	VinodKhanna	MALE	DISGUST	NONE	MEDIUM	YOUNG	LEFT	PARTIAL

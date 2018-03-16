@@ -1,0 +1,21 @@
+
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	021.jpg	Ashwanth_1.jpg	106	65	27	27	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDDLE	DOWN	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	089.jpg	Ashwanth_10.jpg	123	53	21	27	Agalimathu	1981	Ashwath	MALE	HAPPINESS	NONE	HIGH	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	113.jpg	Ashwanth_12.jpg	89	56	81	90	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	123.jpg	Ashwanth_14.jpg	88	58	79	87	Agalimathu	1981	Ashwath	MALE	HAPPINESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	131.jpg	Ashwanth_16.jpg	93	57	77	89	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	133.jpg	Ashwanth_17.jpg	106	64	77	88	Agalimathu	1981	Ashwath	MALE	ANGER	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	134.jpg	Ashwanth_18.jpg	105	62	82	88	Agalimathu	1981	Ashwath	MALE	ANGER	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	146.jpg	Ashwanth_19.jpg	88	51	82	90	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	022.jpg	Ashwanth_2.jpg	100	67	25	27	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	RIGHT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	159.jpg	Ashwanth_21.jpg	100	54	81	92	Agalimathu	1981	Ashwath	MALE	ANGER	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	168.jpg	Ashwanth_22.jpg	82	58	82	87	Agalimathu	1981	Ashwath	MALE	HAPPINESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	271.jpg	Ashwanth_23.jpg	113	56	22	32	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	403.jpg	Ashwanth_24.jpg	35	58	21	28	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	417.jpg	Ashwanth_25.jpg	86	57	12	21	Agalimathu	1981	Ashwath	MALE	NEUTRAL	OTHERS	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	025.jpg	Ashwanth_3.jpg	67	57	26	28	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	DOWN	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	027.jpg	Ashwanth_4.jpg	94	57	27	27	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	029.jpg	Ashwanth_5.jpg	124	48	20	26	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	031.jpg	Ashwanth_6.jpg	119	47	20	30	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	048.jpg	Ashwanth_8.jpg	123	52	21	27	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+clip2_Gali_Mathu_K_S_Ashwath_Leelavathi	074.jpg	Ashwanth_9.jpg	122	47	23	30	Agalimathu	1981	Ashwath	MALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL

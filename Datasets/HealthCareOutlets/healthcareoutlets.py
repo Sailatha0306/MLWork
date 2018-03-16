@@ -65,7 +65,7 @@ accuracies = cross_val_score(estimator=regressor,X = X_train,y = Y_train,cv = 10
 accuracies.mean()
 accuracies.std()
 
-Result = dataset_test.iloc[:,0].values
-Result = [Result, Test_Y]
-
+from numpy import array
+result = dataset_test.iloc[:,0].values
+result = array(result, Test_Y.astype(int))
 

@@ -1,0 +1,21 @@
+
+image_10600_of	139312.png	KarunaBenerjee_1.jpg	258	77	32	46	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	RIGHT	PARTIAL
+image_6600_of	139312.png	KarunaBenerjee_10.jpg	179	69	69	89	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	RIGHT	PARTIAL
+image_6650_of	139312.png	KarunaBenerjee_11.jpg	175	73	71	83	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	DOWN	PARTIAL
+image_6700_of	139312.png	KarunaBenerjee_12.jpg	171	67	72	83	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+image_6750_of	139312.png	KarunaBenerjee_13.jpg	161	44	68	90	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6800_of	139312.png	KarunaBenerjee_14.jpg	266	54	66	88	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6850_of	139312.png	KarunaBenerjee_15.jpg	280	68	66	91	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6900_of	139312.png	KarunaBenerjee_16.jpg	212	73	74	94	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	RIGHT	PARTIAL
+image_6950_of	139312.png	KarunaBenerjee_17.jpg	239	58	74	90	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_7000_of	139312.png	KarunaBenerjee_18.jpg	209	68	70	86	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_7050_of	139312.png	KarunaBenerjee_19.jpg	197	68	71	85	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+image_10650_of	139312.png	KarunaBenerjee_2.jpg	268	119	53	92	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	RIGHT	PARTIAL
+image_7100_of	139312.png	KarunaBenerjee_20.jpg	201	64	72	86	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+image_6250_of	139312.png	KarunaBenerjee_3.jpg	103	31	92	118	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6300_of	139312.png	KarunaBenerjee_4.jpg	259	92	84	115	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6350_of	139312.png	KarunaBenerjee_5.jpg	205	75	75	90	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+image_6400_of	139312.png	KarunaBenerjee_6.jpg	196	58	68	78	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6450_of	139312.png	KarunaBenerjee_7.jpg	292	65	65	85	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	SADNESS	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6500_of	139312.png	KarunaBenerjee_8.jpg	342	75	51	86	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	SURPRISE	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL
+image_6550_of	139312.png	KarunaBenerjee_9.jpg	320	81	56	91	Kanchenjungha	1962	Karuna_Benerjee	FEMALE	NEUTRAL	NONE	MEDIUM	MIDDLE	LEFT	PARTIAL

@@ -1,0 +1,22 @@
+
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	556.jpg	Mukesh_1.jpg	273	159	152	205	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	MEDIUM	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	614.jpg	Mukesh_11.jpg	457	101	41	60	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	617.jpg	Mukesh_12.jpg	471	107	38	56	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	640.jpg	Mukesh_14.jpg	377	133	34	62	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	661.jpg	Mukesh_15.jpg	284	126	161	198	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	662.jpg	Mukesh_16.jpg	281	142	161	202	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	MEDIUM	MIDDLE	FRONTAL	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	664.jpg	Mukesh_17.jpg	434	121	34	50	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	677.jpg	Mukesh_19.jpg	487	97	45	49	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	683.jpg	Mukesh_20.jpg	487	90	39	56	Gajarajayogam	1997	Mukesh	MALE	ANGER	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	688.jpg	Mukesh_21.jpg	494	97	41	55	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	712.jpg	Mukesh_22.jpg	491	89	55	79	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	729.jpg	Mukesh_25.jpg	492	93	55	71	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	754.jpg	Mukesh_26.jpg	523	79	54	78	Gajarajayogam	1997	Mukesh	MALE	ANGER	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	755.jpg	Mukesh_27.jpg	519	74	52	62	Gajarajayogam	1997	Mukesh	MALE	ANGER	NONE	BAD	MIDDLE	UP	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	771.jpg	Mukesh_28.jpg	524	82	49	76	Gajarajayogam	1997	Mukesh	MALE	ANGER	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	579.jpg	Mukesh_3.jpg	468	92	40	57	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	DOWN	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	580.jpg	Mukesh_4.jpg	464	90	46	55	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	DOWN	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	595.jpg	Mukesh_5.jpg	453	88	41	57	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	FRONTAL	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	597.jpg	Mukesh_6.jpg	427	98	45	55	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	605.jpg	Mukesh_8.jpg	439	107	37	59	Gajarajayogam	1997	Mukesh	MALE	HAPPINESS	NONE	BAD	MIDDLE	RIGHT	PARTIAL
+gajarajayogam_Innocent,_Mamukkoya_Mukesh	610.jpg	Mukesh_9.jpg	317	176	41	45	Gajarajayogam	1997	Mukesh	MALE	NEUTRAL	NONE	BAD	MIDDLE	DOWN	PARTIAL

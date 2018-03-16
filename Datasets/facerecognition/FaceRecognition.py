@@ -21,7 +21,7 @@ face_recognition_model = dlib.face_recognition_model_v1('dlib_face_recognition_r
 
 # To avoid false matches, use lower value
 # To avoid false negatives
-TOLERANCE = 0.5
+TOLERANCE = 0.6
 
 # ip-- image
 # op--face encodings using the neural network
@@ -35,13 +35,9 @@ def get_face_encodings(path_to_image):
 def compare_face_encodings(known_faces, face):
     return (np.linalg.norm(known_faces - face, axis=1) <= TOLERANCE)
 
-# This function returns the name of the person whose image matches with the given face (or 'Not Found')
-# known_faces is a list of face encodings
-# names is a list of the names of people (in the same order as the face encodings - to match the name with an encoding)
-# face is the face we are looking for
-def find_match(known_faces, names, face):
-    # Call compare_face_encodings to get a list of True/False values indicating whether or not there's a match
-    matches = compare_face_encodings(known_faces, face)
+def find_match(known_faces, names, input_face):
+    matches = compare_face_encodings(known_faces, input_face)
+    #print(">>>>>>>>>>>>>>>"+matches)
     # Return the name of the first match
     count = 0
     for match in matches:
