@@ -15,6 +15,7 @@ import pandas as pd
 
 # Importing the dataset
 dataset = pd.read_csv('carsdata.csv')
+
 # Assign names to Columns
 dataset.columns = ['buying','maint','doors','persons','lug_boot','safety','classes']
 # Encode Data

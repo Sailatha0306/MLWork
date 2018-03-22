@@ -39,12 +39,12 @@ def compare_face_encodings(known_faces, face):
     return (np.linalg.norm(known_faces - face, axis=1) <= TOLERANCE)
 
 def find_match(known_faces, image2name, input_face):
-    matches = compare_face_encodings(known_faces, input_face)
+    matches1 = compare_face_encodings(known_faces, input_face)
     #print(">>>>>>>>>>>>>>>"+matches)
     # Return the name of the first match
     count = 0
-    for match in matches:
-        if match:
+    for match1 in matches1:
+        if match1:
             return image2name[count]
         count += 1
     # Return not found if no match found

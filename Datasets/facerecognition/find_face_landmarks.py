@@ -26,5 +26,5 @@ win.set_image(image)
 for i, face_rect in enumerate(detected_faces):
 	print("- Face #{} found at Left: {} Top: {} Right: {} Bottom: {}".format(i, face_rect.left(), face_rect.top(), face_rect.right(), face_rect.bottom()))
 	win.add_overlay(face_rect)
-	pose_landmarks = face_pose_predictor(image, face_rect)
-	win.add_overlay(pose_landmarks)
+	#pose_landmarks = face_pose_predictor(image, face_rect)
+	#win.add_overlay(pose_landmarks)
