@@ -143,8 +143,8 @@ while True:
         
         
     
-    name_img = "frame%d.jpg"%frame_no
-    cv2.imwrite(name_img, frame)
+    #name_img = "frame%d.jpg"%frame_no
+    #cv2.imwrite(name_img, frame)
     # Write the resulting image to the output video file
     print("Writing frame {} / {}".format(frame_no, length))
     output_movie.write(frame)
