@@ -23,12 +23,12 @@ shape_predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 face_recognition_model = dlib.face_recognition_model_v1('dlib_face_recognition_resnet_model_v1.dat')
 
 def face_locations(img, number_of_times_to_upsample=1):
-        return [_trim_css_to_bounds(_rect_to_css(face), img.shape) for face in face_detector(img, number_of_times_to_upsample)]
+        return [adjust_tuple_bounds(conv_rect2tuple(face), img.shape) for face in face_detector(img, number_of_times_to_upsample)]
        
-def _rect_to_css(rect):
+def conv_rect2tuple(rect):
     return rect.top(), rect.right(), rect.bottom(), rect.left()
 
-def _trim_css_to_bounds(css, image_shape):
+def adjust_tuple_bounds(css, image_shape):
     return max(css[0], 0), min(css[1], image_shape[1]), min(css[2], image_shape[0]), max(css[3], 0)
 
 def face_encodings(face_image, known_face_locations=None, num_jitters=1):
@@ -39,12 +39,12 @@ def _raw_face_landmarks(face_image, face_locations=None, model="large"):
     if face_locations is None:
         face_locations = face_detector(face_image,1)
     else:
-        face_locations = [_css_to_rect(face_location) for face_location in face_locations]
+        face_locations = [conv_tuple2rect(face_location) for face_location in face_locations]
 
     pose_predictor = shape_predictor
     return [pose_predictor(face_image, face_location) for face_location in face_locations]
 
-def _css_to_rect(css):
+def conv_tuple2rect(css):
     return dlib.rectangle(css[3], css[0], css[1], css[2])
 
 def compare_face_encodings(known_faces, face):
