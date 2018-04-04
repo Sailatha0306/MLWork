@@ -4,10 +4,10 @@ import imageio
 
 predictor_model = "shape_predictor_68_face_landmarks.dat"
 
-image_filenames = filter(lambda x: x.endswith('.jpg'), os.listdir('images/'))
+image_filenames = filter(lambda x: x.endswith('.jpg'), os.listdir('AtmecsImgs/'))
 image_filenames = sorted(image_filenames)
 file_name = image_filenames[0]
-paths_to_images = ['images/' + x for x in image_filenames]
+paths_to_images = ['AtmecsImgs/' + x for x in image_filenames]
 
 # Create a HOG face detector using the built-in dlib class
 face_detector = dlib.get_frontal_face_detector()
