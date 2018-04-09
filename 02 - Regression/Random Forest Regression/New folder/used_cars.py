@@ -11,7 +11,7 @@ import pandas as pd
 
 
 # Importing the dataset
-dataset = pd.read_csv('autos.csv',encoding='latin-1')
+dataset = pd.read_csv('Used_cars.csv',encoding='latin-1')
 dataset.drop(['name','dateCrawled','seller', 'offerType', 'abtest','model','nrOfPictures', 'lastSeen', 'postalCode', 'dateCreated'],axis='columns',inplace = 'True')
 
 #remove the duplicates
