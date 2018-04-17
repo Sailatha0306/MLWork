@@ -59,7 +59,7 @@ def get_face_encodings(path_to_image):
 
 
 
-input_movie = cv2.VideoCapture("Video_data/myTestVideo/input_clip.mp4")
+input_movie = cv2.VideoCapture("Video_data/myTestVideo2/input_clip2.mp4")
 #input_movie = cv2.VideoCapture("Video_data/set1/input_clip.mp4")
 
 length = int(input_movie.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -72,17 +72,10 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')
 
 #output_movie = cv2.VideoWriter('output.avi', fourcc, 29.97, (640, 360))
 #output_movie = cv2.VideoWriter('Video_data/set1/myTestoutput.mp4', fourcc, my_fps, (1920,1080))
-output_movie = cv2.VideoWriter('Video_data/myTestVideo/output.avi', fourcc, 29.97, (1920,1080))
+output_movie = cv2.VideoWriter('Video_data/myTestVideo2/output.avi', fourcc, 29.97, (1920,1080))
 
 
-#lmm_image = face_recognition.load_image_file("lin-manuel-miranda.png")
-#im = PIL.Image.open("lin-manuel-miranda.png")
-#lm_face_encoding = get_face_encodings("lin-manuel-miranda.png")[0]
-#al_face_encoding = get_face_encodings("alex-lacamoire.png")[0]
-#b_obama_encoding = get_face_encodings("obama.jpg")[0]
-#m_obama_encoding = get_face_encodings("mitchell_obama.jpg")[0]
-
-image_filenames = glob.glob('Video_data\\myTestVideo\\images' + '\\*.jpg', recursive=True)
+image_filenames = glob.glob('Video_data\\myTestVideo2\\images' + '\\*.jpg', recursive=True)
 #image_filenames = glob.glob('Video_data\\set1\\images' + '\\*.jpg', recursive=True)
 image_filenames = sorted(image_filenames)
 paths_to_images = [ x for x in image_filenames]
