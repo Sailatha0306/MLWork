@@ -10,7 +10,7 @@ import numpy as np
 import dlib
 import imageio
 from sklearn import neighbors
-#import pickle
+import pickle
 
 train_dir = 'data'
 # to detect faces in images
@@ -42,7 +42,6 @@ def get_face_encodings(path_to_image):
     return [np.array(face_recognition_model.compute_face_descriptor(image, face_pose, 1)) for face_pose in shapes_faces]
 
 #train the classifier
-
 X = []
 y = []
 
@@ -64,13 +63,13 @@ for class_dir in os.listdir(train_dir):
 knn_clf = neighbors.KNeighborsClassifier(n_neighbors=5)
 knn_clf.fit(X, y)
 
-#saved_path = r"D:\Others\Machine Learning A-Z Template Folder\Datasets\models"
+saved_path = r"D:\Others\Machine Learning A-Z Template Folder\Datasets\models\knn.p"
 #saved_path = r"C:\Users\ravikiran.tamiri\Desktop"
 #
-#    # Save the trained KNN classifier
-#if saved_path is not None:
-#        with open(saved_path, 'w') as f:
-#            pickle.dump(knn_clf, f)
+# Save the trained KNN classifier
+if saved_path is not None:
+        with open(saved_path, 'wb') as f:
+            pickle.dump(knn_clf, f)
  
 #get the test files       
 test_filenames = filter(lambda x: x.endswith('.jpg'), os.listdir('test/'))
