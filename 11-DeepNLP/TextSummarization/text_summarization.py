@@ -77,3 +77,7 @@ elif ret == 2:
 else:
     print("Enter valid input\n")
     
+if ret == 1:
+    print("its one")
+else:
+    print("its two")
