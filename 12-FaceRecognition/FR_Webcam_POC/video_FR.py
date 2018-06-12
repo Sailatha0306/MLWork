@@ -14,7 +14,7 @@ import imageio
 print("\n####SETTING THE INITIAL PARAMETERES####\n")
 TOLERANCE = 0.5
 face_detector = dlib.get_frontal_face_detector()
-pose_predictor_5_point = dlib.shape_predictor('shape_predictor_5_face_landmarks.dat')
+#pose_predictor_5_point = dlib.shape_predictor('shape_predictor_5_face_landmarks.dat')
 shape_predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
 #face encodings (numbers to identify the face of a particular person)
@@ -57,31 +57,8 @@ def get_face_encodings(path_to_image):
     return [np.array(face_recognition_model.compute_face_descriptor(image, face_pose, 1)) for face_pose in shapes_faces]
 
 
-
-
-# length = int(input_movie.get(cv2.CAP_PROP_FRAME_COUNT))
-# my_fps = input_movie.get(cv2.CAP_PROP_FPS)
-# my_fs_w = input_movie.get(cv2.CAP_PROP_FRAME_WIDTH)
-# my_fs_h = input_movie.get(cv2.CAP_PROP_FRAME_HEIGHT)
-
-
-#fourcc = cv2.VideoWriter_fourcc(*'XVID')
-
-#output_movie = cv2.VideoWriter('output.avi', fourcc, 29.97, (640, 360))
-#output_movie = cv2.VideoWriter('Video_data/set1/myTestoutput.mp4', fourcc, my_fps, (1920,1080))
-#output_movie = cv2.VideoWriter('output.avi', fourcc, 29.97, (1920,1080))
-
-
-#lmm_image = face_recognition.load_image_file("lin-manuel-miranda.png")
-#im = PIL.Image.open("lin-manuel-miranda.png")
-#lm_face_encoding = get_face_encodings("lin-manuel-miranda.png")[0]
-#al_face_encoding = get_face_encodings("alex-lacamoire.png")[0]
-#b_obama_encoding = get_face_encodings("obama.jpg")[0]
-#m_obama_encoding = get_face_encodings("mitchell_obama.jpg")[0]
-
 print("\n####READING THE IMAGES FROM TRAINING DATA####\n")
 image_filenames = glob.glob('images' + '\\*.jpg', recursive=True)
-#image_filenames = glob.glob('Video_data\\set1\\images' + '\\*.jpg', recursive=True)
 image_filenames = sorted(image_filenames)
 paths_to_images = [ x for x in image_filenames]
 image2name = {}
@@ -98,6 +75,7 @@ for path_to_image in paths_to_images:
         img_count += 1
         
 print("\n####FACE ENCODING COMPLETED####\n")
+
 print("\n####VIDEO CAPTURE FROM WEBCAM STARTED####\n")
 #input_movie = cv2.VideoCapture("input_clip.mp4")
 input_movie = cv2.VideoCapture(0)
@@ -132,7 +110,13 @@ while True:
                 count += 1
             
             face_names.append(name)
-    
+            #if name == "Unknown":
+                #ret = input("UNKNOWN FACE IDENTIFIED, WOULD LIKE TO ADD TO THE TRAINING DATA?(Y/N)")
+                #if ret == "Y":
+                    #name_img = input("ENTER THE NAME OF THE PERSON")
+                    #name_img = "images\\" + name_img
+                    #cv2.imwrite(name_img, rgb_frame)
+        
     process_this_frame = not process_this_frame
 
     for (top, right, bottom, left), name in zip(face_locs, face_names):
@@ -153,13 +137,10 @@ while True:
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 0.5, (255, 255, 255), 1)
 
     # Write the resulting image to the output video file
-    #print("Writing frame {} / {}".format(frame_no, length))
-    #output_movie.write(frame)
     cv2.imshow('Video', frame)
     
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 input_movie.release()
-#output_movie.release()
 cv2.destroyAllWindows()
