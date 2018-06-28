@@ -68,16 +68,12 @@ def process_text(text):
 #main
 ret = input("Do you want to enter a \n 1.URL \n 2.Text\n")
 
-if ret == 1:
+if ret == '1':
     url = input("Enter a URL\n")
     process_url(url)
-elif ret == 2:
+elif ret == '2':
     text = input("Enter the text \n")
     process_text(text)
 else:
     print("Enter valid input\n")
     
-if ret == 1:
-    print("its one")
-else:
-    print("its two")
