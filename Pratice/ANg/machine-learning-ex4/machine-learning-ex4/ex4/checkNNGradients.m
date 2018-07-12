@@ -33,7 +33,8 @@ costFunc = @(p) nnCostFunction(p, input_layer_size, hidden_layer_size, ...
 
 [cost, grad] = costFunc(nn_params);
 numgrad = computeNumericalGradient(costFunc, nn_params);
-
+size(numgrad)
+size(grad)
 % Visually examine the two gradient computations.  The two columns
 % you get should be very similar. 
 disp([numgrad grad]);

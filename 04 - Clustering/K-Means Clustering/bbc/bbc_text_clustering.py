@@ -2,12 +2,13 @@
 Created on Fri Mar  2 15:39:26 2018
 
 @author: Ravikiran.Tamiri
+SVM : 97%
+K means : 
 """
 import glob,string
-import re
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import nltk
 from nltk.corpus import stopwords
 import datetime
 print(datetime.datetime.utcnow())
@@ -15,6 +16,7 @@ print(datetime.datetime.utcnow())
 filenames = sorted(glob.glob("*/*.*"))
 df = pd.DataFrame()
 raw_data = []
+y_value = []
 
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer("english")
@@ -23,11 +25,14 @@ for filename in filenames:
     with open(filename, "r") as book_file:
             data = book_file.read()
             raw_data.append(data)
+            y_value.append(filename.split("\\")[0])
 
 
 X = raw_data
+Y = y_value
 
 print(datetime.datetime.utcnow())
+
 def text_process(text):
     nopunc = [char for char in text if char not in string.punctuation]
     nopunc = ''.join(nopunc)
@@ -43,6 +48,22 @@ for i in range(0,len(X)):
     X[i] = text_process(X[i])
 
 print(datetime.datetime.utcnow())
+
+# Splitting the dataset into the Training set and Test set
+from sklearn.cross_validation import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.20, random_state = 0)
+
+from sklearn.pipeline import Pipeline
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.linear_model import SGDClassifier
+text_clf_svm = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()),
+                         ('clf-svm', SGDClassifier(loss='hinge', penalty='l2',alpha=1e-3, n_iter=5, random_state=42))])
+
+text_clf_svm = text_clf_svm.fit(X_train, y_train)
+predicted_svm = text_clf_svm.predict(X_test)
+np.mean(predicted_svm == y_test)
+
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 #tfidvectorizer = TfidfVectorizer()
