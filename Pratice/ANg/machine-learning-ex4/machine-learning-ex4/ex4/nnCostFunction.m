@@ -73,7 +73,7 @@ y_row=size(y,1);
 final_y=zeros(num_labels,size(y,1));
 
 for i=1:y_row
-  final_y(y(i,1),i)=1;
+ final_y(y(i,1),i)=1;
 end
 jtheta=0;
 
@@ -86,27 +86,41 @@ nthetha2=Theta2(:,2:size(Theta2,2));
 
 J=J+((lambda/(2*m))*((sum(sum(nthetha1.^2)))+(sum(sum(nthetha2.^2)))));
 
+%Theta1_grad = Theta1_grad(:,2:end);
+%Theta2_grad = Theta2_grad(:,2:end);
 for i =1:m
-  a1=X'(:,i);%401 X 5000-->401 X 1
-  z2=Theta1*a1;
-  z2=[1;z2];
-  a2=sigmoid(Theta1*a1);%25 X 1
-  a2=[1;a2];
-  a3=sigmoid(Theta2*a2);%10 X 26 * 26 X 1-->10 X 1 
+  a1=X(i,:);%1X401
+  z2=Theta1*a1';%25X401X401X1
+  %z2=[1;z2];
+  a2=sigmoid(z2);%25 X 1
+  a2=[1 a2'];%1X26
+  a3=sigmoid(Theta2*a2');%10 X 26 * 26 X 1-->10 X 1 
   
   epi3=a3.-final_y(:,i);%10 X 1
+<<<<<<< HEAD
   epi2=(Theta2'*epi3).*sigmoidGradient(z2);%26 X 1
   a2=a2(2:end);
   delta2=epi3*a2';%10 X 1 * 1 X 25= 10 X 25
+=======
+  epi2=(Theta2(:,2:end)'*epi3).*sigmoidGradient(z2);%25 X 1
+  %a2=a2(2:end);
+  Theta2_grad = Theta2_grad + epi3*a2;%10 X 1 * 1 X 25= 10 X 25
+  Theta1_grad = Theta1_grad + epi2*a1;%25 X 1 * 1 X 400= 25 X 400
+  %delta2=delta2 + epi3*a2';%10 X 1 * 1 X 25= 10 X 25
+>>>>>>> e22362b4673c3ea17b3ff73602d5582ff509296c
 end
-  D2=sum(delta2)./m;
-  %delta1=delta1+epi2*a1';%26 X 1 * 1 X 401= 
+  Theta2_grad(:,1)=(Theta2_grad(:,1))./m;
+  Theta1_grad(:,1)=(Theta1_grad(:,1))./m;
+  Theta2_grad(:,2:end)=((Theta2_grad(:,2:end))./m)+(Theta2(:,2:end)).*(lambda/m);
+  Theta1_grad(:,2:end)=((Theta1_grad(:,2:end))./m)+(Theta1(:,2:end)).*(lambda/m);
+  %%delta1=delta1+epi2*a1';%26 X 1 * 1 X 401= 
 % -------------------------------------------------------------
 
 % =========================================================================
-
+%size(Theta2_grad)
+%size(Theta1_grad)
 % Unroll gradients
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
-
+%size(grad)
 
 end
