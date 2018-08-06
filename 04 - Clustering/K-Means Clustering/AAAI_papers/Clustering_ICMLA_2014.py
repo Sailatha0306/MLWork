@@ -2,6 +2,7 @@
 Created on Wed Feb 28 15:57:20 2018
 
 @author: Ravikiran.Tamiri
+NOT USEFUL
 """
 import pandas as pd
 import numpy as np
@@ -38,6 +39,26 @@ def text_process(text):
 
 for i in range(0,len(X)):
     X[i] = text_process(X[i])
+
+# =============================================================================
+# Y = dataset['session']
+# 
+# # Splitting the dataset into the Training set and Test set
+# from sklearn.cross_validation import train_test_split
+# X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.20, random_state = 0)
+# 
+# from sklearn.pipeline import Pipeline
+# from sklearn.feature_extraction.text import CountVectorizer
+# from sklearn.feature_extraction.text import TfidfTransformer
+# from sklearn.linear_model import SGDClassifier
+# text_clf_svm = Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()),
+#                          ('clf-svm', SGDClassifier(loss='hinge', penalty='l2',alpha=1e-3, n_iter=5, random_state=42))])
+# 
+# text_clf_svm = text_clf_svm.fit(X_train, Y_train)
+# predicted_svm = text_clf_svm.predict(X_test)
+# np.mean(predicted_svm == Y_test)
+# 
+# =============================================================================
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 tfidvectorizer = TfidfVectorizer()

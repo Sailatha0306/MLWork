@@ -141,6 +141,10 @@ while True:
         bottom*=4
         left*=4
         
+        face_image = frame[top:bottom, left:right]
+        #blur the face
+        face_image = cv2.GaussianBlur(face_image, (99, 99), 30)
+        frame[top:bottom, left:right] = face_image
         # Draw a box around the face
         cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
 
