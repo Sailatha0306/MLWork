@@ -97,7 +97,7 @@ for i =1:m
   epi3=a3.-final_y(:,i);%10 X 1
   epi2=(Theta2'*epi3).*sigmoidGradient(z2);%26 X 1
   a2=a2(2:end);
-  delta2=epi3*a2'%10 X 1 * 1 X 25= 10 X 25
+  delta2=epi3*a2';%10 X 1 * 1 X 25= 10 X 25
 end
   D2=sum(delta2)./m;
   %delta1=delta1+epi2*a1';%26 X 1 * 1 X 401= 
