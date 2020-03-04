@@ -12,3 +12,71 @@ dataset.persons.replace(('2','4','more'),(1,2,3), inplace=True)
 dataset.lug_boot.replace(('small','med','big'),(1,2,3), inplace=True)
 dataset.safety.replace(('low','med','high'),(1,2,3), inplace=True)
 dataset.classes.replace(('unacc','acc','good','vgood'),(1,2,3,4), inplace=True)
+
+2>>
+AI can be created without machine learning, but right now machine learning
+is the primary method for creating AI systems. Similarly, machine learning
+can be used for more than AI, but right now the majority of machine
+learning is AI-related.
+
+HOW???
+
+3>>>
+ML workflows???
+ANS>>>
+1. Build
+Explore, preprocess data, experiment with ML frameworks and
+algorithms using notebooks
+2. Train
+Train ML models and tune model hyperparameters on large datasets
+3. Deploy
+Put ML models into production and make inferences on unseen data
+
+
+4>>Explore, preprocess data, experiment with ML frameworks and
+algorithms using notebooks
+-How to create a notebook instance.
+-Exploring and preparing input data with Jupyter notebooks
+-Configuring the built in algorithms using low level SDK for python, highlevel sagemaker python library.
+Creating custom script with Tensorflow, Apache MX-Net using the highlevel sagemaker python library.
+
+
+5>>Train ML models and tune model hyperparameters on large datasets
+-Creating training / tuning jobs using built-in algorithms, custom algorithms Tensor Flow or Apache MX-Net
+-Monitoring and analysing traning job metrics and logs with AWS cloud watch
+-Powerful Automatic HPO(Hyper Parameter Optimization) to find the best hyperparameters combination for the model.
+
+6>>Put ML models into production and make inferences on unseen data
+- Create a model from training output
+- Create a  unique endpoint configuration
+- Create a unique endpoint
+- Testing he deployed model
+
+7>> Integrating AWS sagemaker  with AWS API gateway and AWS Lambda
+- Client Application -->> AWS API gateway -->> AWS Lambda function -->> AWS sagemaker endpoint.
+
+Lambda function: AWS Lambda fuction will invoke the endpoint created before. 
+Author from scratch -->> lambda will create role with permissions to upload logs to AWS cloud watch , then create IAM role with all poilicies and permissions.
+This lambda function with have place to write code that uses sagemaker and the lumbda function we have created and a lambda handler which will be called by the external application .
+
+Then create AWS API gateway, that will create a RESTful service that will trigger a lambda function. At Resource --> go to action to do POST --> so that API can call the lambda function.
+
+Then Go to Actions to Deploy the API. We will get the URL, which you can call from postman to invoke the lambda function.
+
+8>> Managing security and sclability in AWS Sagemaker.
+We create policies that allow/deny permissions to users, groups, roles that are associated to IAM
+We create first policy and save. Then create a group and add some policies. Then create and add users.
+We can define automatic scaling of the endpoint. For which we need, scaling policy. It is available at Sagemaker->Endpoint->available in the page.
+
+>>>>>>>>>>>>>>>>>>>>>>>>
+
+https://pathmind.com/wiki/machine-learning-workflow
+Phases in Machine Learning Workflows:
+1. Use Case Conception and Formulation
+2. Feasibility Study and Exploratory Analysis
+3. Model Design, Training, and Offline Evaluation
+4. Model Deployment, Online Evaluation, and Monitoring
+5. Model Maintenance, Diagnosis, and Retraining
+
+
+
